@@ -1,11 +1,5 @@
-Initial North America offline light-pollution data release.
+Global 2025 offline atlas: seven optional regional packages, about 489.0 MB together.
 
-- Source year: 2025; model: experimental-linear-two-feature-v2.
-- Compact package: 88,100,864 bytes (approximately 88.1 MB).
-- Detailed readings are unchanged from the previous full package.
-- Includes numerical display overviews at zooms 3-8; readings use zoom 8.
-- Includes the descriptor, catalog, SHA256SUMS, format documentation and source attribution.
-- This experimental model has not been independently validated across North America.
-- Basemap roads, labels and terrain are not included.
+Includes North America (expanded), South America, Europe, Africa, Asia, Oceania and the South Pacific. Oceans and the international date line are covered. The regional union was checked against every canonical numerical tile, with zero missing union pixels and zero changed shared values. Polar source limits remain unavailable. See coverage.json for the exact verification and latitude envelope.
 
-Package SHA-256: `81606ef9ea356ea6223a64375984cff57633ab55f5f06fdc5b99617d267a98d2`.
+The existing experimental v2 model and calibration are unchanged. Global coverage is not independent accuracy validation. Basemap roads, labels and terrain are separate downloads. Requires the app version supporting the world-v1 catalog and multi-region reading; the legacy catalog remains unchanged.

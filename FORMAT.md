@@ -31,3 +31,7 @@ Use `lightpollution_dataset.json` to verify length, SHA-256 and compatible
 schema/encoding before installing. Download to a temporary file, validate,
 then atomically replace the installed package. The catalog's package URLs are
 versioned; released files should not be changed in place.
+
+## Global region packages
+
+All seven packages are subsets of the same canonical atlas. Native tiles include a one-tile context halo, wrapping longitude at the date line. Numerical overview pixels outside that footprint are marked missing. Shared valid codes are identical at every zoom. Bounds in each descriptor are an envelope; actual availability is the numeric validity mask. `region_bounds` records the download region selection. Readers combine valid pixels across installed packages and wrap interpolation at ±180 degrees.

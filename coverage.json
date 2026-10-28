@@ -1,0 +1,118 @@
+{
+  "source_coverage": {
+    "interior_latitudes": [
+      -61,
+      71
+    ],
+    "interior_pixels_checked": 2146500608,
+    "unexpected_interior_missing_pixels": 0,
+    "available_latitude_envelope": [
+      -62.31262250793333,
+      72.31661961704208
+    ],
+    "note": "Full 300 km source support reduces coverage near the source polar edges; no source values are invented."
+  },
+  "regional_union": {
+    "canonical_tiles_checked": 45816,
+    "valid_pixels_all_zooms": 2971593354,
+    "identical_overlap_pixels": 210988317,
+    "missing_union_pixels": 0,
+    "changed_overlap_pixels": 0,
+    "includes_oceans": true,
+    "includes_international_date_line": true
+  },
+  "full_latitude_validation": {
+    "longitude_columns_checked": 65536,
+    "valid_native_pixels": 2229207764,
+    "internal_missing_pixels": 0,
+    "completely_missing_longitude_columns": 0,
+    "representative_samples_checked": 20,
+    "polar_missing_samples_checked": 2
+  },
+  "source_bounds": [
+    -180,
+    -65,
+    180,
+    75
+  ],
+  "all_regions_bytes": 489033728,
+  "regions": [
+    {
+      "id": "north-america",
+      "bounds": {
+        "west": -180,
+        "south": 0,
+        "east": -30,
+        "north": 75
+      },
+      "bytes": 99401728,
+      "sha256": "bf1a00ad82cd6b02eab503f5c9929c9a95fd1549554ae0dc8fb59a8a16e30b75"
+    },
+    {
+      "id": "south-america",
+      "bounds": {
+        "west": -100,
+        "south": -65,
+        "east": -30,
+        "north": 15
+      },
+      "bytes": 50520064,
+      "sha256": "a6e3eb41fcc25e0ee56a1cfcb18f6844a67fdbe6bf0ad506bf6407c4cabb3c5c"
+    },
+    {
+      "id": "europe",
+      "bounds": {
+        "west": -30,
+        "south": 30,
+        "east": 60,
+        "north": 75
+      },
+      "bytes": 118185984,
+      "sha256": "7983189b1cebc18ebcae37e1f2fe10a2ab3dc9fb9c5541ab9cdabca9b18bc1da"
+    },
+    {
+      "id": "africa",
+      "bounds": {
+        "west": -30,
+        "south": -65,
+        "east": 60,
+        "north": 30
+      },
+      "bytes": 55455744,
+      "sha256": "02ec6d3ac077e80412f67215807143503580cd90c9fca91c0be77f971375b410"
+    },
+    {
+      "id": "asia",
+      "bounds": {
+        "west": 60,
+        "south": 0,
+        "east": 180,
+        "north": 75
+      },
+      "bytes": 142438400,
+      "sha256": "1a877f6dc70b7b8c16c85ab5911fb6819163a756b3d7789e6e943808711520c3"
+    },
+    {
+      "id": "oceania",
+      "bounds": {
+        "west": 60,
+        "south": -65,
+        "east": 180,
+        "north": 0
+      },
+      "bytes": 21262336,
+      "sha256": "5e138181962318da654b9608983b8f71cdfc63e5a08fa8ca0452529b67358143"
+    },
+    {
+      "id": "south-pacific",
+      "bounds": {
+        "west": -180,
+        "south": -65,
+        "east": -100,
+        "north": 0
+      },
+      "bytes": 1769472,
+      "sha256": "3be051990f42bb2f584753f4970eef030fd23bde5c4b1c0efc76f12b4073e659"
+    }
+  ]
+}

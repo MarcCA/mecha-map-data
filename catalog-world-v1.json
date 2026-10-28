@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "catalog_id": "world-v1",
+  "updated_at_utc": "2026-10-28T04:28:16.839893+00:00",
+  "coverage": {
+    "source_bounds": [
+      -180,
+      -65,
+      180,
+      75
+    ],
+    "regions_required_for_complete_atlas": [
+      "north-america",
+      "south-america",
+      "europe",
+      "africa",
+      "asia",
+      "oceania",
+      "south-pacific"
+    ],
+    "verification_url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/coverage.json"
+  },
+  "regions": [
+    {
+      "id": "north-america",
+      "name": "North America",
+      "version": "world-2025-v2-compact-1",
+      "source_year": 2025,
+      "bounds": {
+        "west": -180,
+        "south": 0,
+        "east": -30,
+        "north": 75
+      },
+      "package": {
+        "file_name": "north_america_lightpollution.mbtiles",
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/north_america_lightpollution.mbtiles",
+        "bytes": 99401728,
+        "sha256": "bf1a00ad82cd6b02eab503f5c9929c9a95fd1549554ae0dc8fb59a8a16e30b75"
+      },
+      "descriptor": {
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/north-america_dataset.json",
+        "bytes": 760,
+        "sha256": "2400db0c3295206dcfc8b7b46a78fe12f3b58b5e9d3cae13c89c497cabfc976d"
+      },
+      "format": {
+        "schema_version": 2,
+        "tile_storage": "numeric_only_v1",
+        "numeric_encoding": "log1p_ratio_u16_delta_shuffle_zlib_v2",
+        "palette": "sqm_palette_v1",
+        "reading_zoom": 8,
+        "display_min_zoom": 3,
+        "display_max_zoom": 8
+      },
+      "model_version": "experimental-linear-two-feature-v2",
+      "attribution_url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/ATTRIBUTION.md",
+      "source_license": "CC-BY-4.0",
+      "limitations": [
+        "Experimental western-US calibration applied globally; coverage is not independent validation of accuracy.",
+        "Annual 2025 model, not live sky conditions; no terrain shielding, spectrum or weather correction.",
+        "The complete 300 km source footprint is required; polar source limits remain unavailable.",
+        "Roads, labels and terrain are separate basemap downloads."
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "version": "world-2025-v2-compact-1",
+      "source_year": 2025,
+      "bounds": {
+        "west": -100,
+        "south": -65,
+        "east": -30,
+        "north": 15
+      },
+      "package": {
+        "file_name": "south_america_lightpollution.mbtiles",
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/south_america_lightpollution.mbtiles",
+        "bytes": 50520064,
+        "sha256": "a6e3eb41fcc25e0ee56a1cfcb18f6844a67fdbe6bf0ad506bf6407c4cabb3c5c"
+      },
+      "descriptor": {
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/south-america_dataset.json",
+        "bytes": 762,
+        "sha256": "4557c6c0485f3137d4eca917b3c1e6d6c61b1f148f9bb1e82648280c37fa26c4"
+      },
+      "format": {
+        "schema_version": 2,
+        "tile_storage": "numeric_only_v1",
+        "numeric_encoding": "log1p_ratio_u16_delta_shuffle_zlib_v2",
+        "palette": "sqm_palette_v1",
+        "reading_zoom": 8,
+        "display_min_zoom": 3,
+        "display_max_zoom": 8
+      },
+      "model_version": "experimental-linear-two-feature-v2",
+      "attribution_url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/ATTRIBUTION.md",
+      "source_license": "CC-BY-4.0",
+      "limitations": [
+        "Experimental western-US calibration applied globally; coverage is not independent validation of accuracy.",
+        "Annual 2025 model, not live sky conditions; no terrain shielding, spectrum or weather correction.",
+        "The complete 300 km source footprint is required; polar source limits remain unavailable.",
+        "Roads, labels and terrain are separate basemap downloads."
+      ]
+    },
+    {
+      "id": "europe",
+      "name": "Europe",
+      "version": "world-2025-v2-compact-1",
+      "source_year": 2025,
+      "bounds": {
+        "west": -30,
+        "south": 30,
+        "east": 60,
+        "north": 75
+      },
+      "package": {
+        "file_name": "europe_lightpollution.mbtiles",
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/europe_lightpollution.mbtiles",
+        "bytes": 118185984,
+        "sha256": "7983189b1cebc18ebcae37e1f2fe10a2ab3dc9fb9c5541ab9cdabca9b18bc1da"
+      },
+      "descriptor": {
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/europe_dataset.json",
+        "bytes": 739,
+        "sha256": "91dc8e5e40a794230d70e4ed22a4c5830f41240d358717aab6b41a0cfa8f0977"
+      },
+      "format": {
+        "schema_version": 2,
+        "tile_storage": "numeric_only_v1",
+        "numeric_encoding": "log1p_ratio_u16_delta_shuffle_zlib_v2",
+        "palette": "sqm_palette_v1",
+        "reading_zoom": 8,
+        "display_min_zoom": 3,
+        "display_max_zoom": 8
+      },
+      "model_version": "experimental-linear-two-feature-v2",
+      "attribution_url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/ATTRIBUTION.md",
+      "source_license": "CC-BY-4.0",
+      "limitations": [
+        "Experimental western-US calibration applied globally; coverage is not independent validation of accuracy.",
+        "Annual 2025 model, not live sky conditions; no terrain shielding, spectrum or weather correction.",
+        "The complete 300 km source footprint is required; polar source limits remain unavailable.",
+        "Roads, labels and terrain are separate basemap downloads."
+      ]
+    },
+    {
+      "id": "africa",
+      "name": "Africa",
+      "version": "world-2025-v2-compact-1",
+      "source_year": 2025,
+      "bounds": {
+        "west": -30,
+        "south": -65,
+        "east": 60,
+        "north": 30
+      },
+      "package": {
+        "file_name": "africa_lightpollution.mbtiles",
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/africa_lightpollution.mbtiles",
+        "bytes": 55455744,
+        "sha256": "02ec6d3ac077e80412f67215807143503580cd90c9fca91c0be77f971375b410"
+      },
+      "descriptor": {
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/africa_dataset.json",
+        "bytes": 739,
+        "sha256": "a0f21630938b320c6aa41abe6543f46e285a6712c2bc0b584d223a9efa967add"
+      },
+      "format": {
+        "schema_version": 2,
+        "tile_storage": "numeric_only_v1",
+        "numeric_encoding": "log1p_ratio_u16_delta_shuffle_zlib_v2",
+        "palette": "sqm_palette_v1",
+        "reading_zoom": 8,
+        "display_min_zoom": 3,
+        "display_max_zoom": 8
+      },
+      "model_version": "experimental-linear-two-feature-v2",
+      "attribution_url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/ATTRIBUTION.md",
+      "source_license": "CC-BY-4.0",
+      "limitations": [
+        "Experimental western-US calibration applied globally; coverage is not independent validation of accuracy.",
+        "Annual 2025 model, not live sky conditions; no terrain shielding, spectrum or weather correction.",
+        "The complete 300 km source footprint is required; polar source limits remain unavailable.",
+        "Roads, labels and terrain are separate basemap downloads."
+      ]
+    },
+    {
+      "id": "asia",
+      "name": "Asia",
+      "version": "world-2025-v2-compact-1",
+      "source_year": 2025,
+      "bounds": {
+        "west": 60,
+        "south": 0,
+        "east": 180,
+        "north": 75
+      },
+      "package": {
+        "file_name": "asia_lightpollution.mbtiles",
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/asia_lightpollution.mbtiles",
+        "bytes": 142438400,
+        "sha256": "1a877f6dc70b7b8c16c85ab5911fb6819163a756b3d7789e6e943808711520c3"
+      },
+      "descriptor": {
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/asia_dataset.json",
+        "bytes": 732,
+        "sha256": "7017ccf5b0ea3d8fc6d007c06452aac195d061115396e8720c920e1afc0b3136"
+      },
+      "format": {
+        "schema_version": 2,
+        "tile_storage": "numeric_only_v1",
+        "numeric_encoding": "log1p_ratio_u16_delta_shuffle_zlib_v2",
+        "palette": "sqm_palette_v1",
+        "reading_zoom": 8,
+        "display_min_zoom": 3,
+        "display_max_zoom": 8
+      },
+      "model_version": "experimental-linear-two-feature-v2",
+      "attribution_url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/ATTRIBUTION.md",
+      "source_license": "CC-BY-4.0",
+      "limitations": [
+        "Experimental western-US calibration applied globally; coverage is not independent validation of accuracy.",
+        "Annual 2025 model, not live sky conditions; no terrain shielding, spectrum or weather correction.",
+        "The complete 300 km source footprint is required; polar source limits remain unavailable.",
+        "Roads, labels and terrain are separate basemap downloads."
+      ]
+    },
+    {
+      "id": "oceania",
+      "name": "Oceania",
+      "version": "world-2025-v2-compact-1",
+      "source_year": 2025,
+      "bounds": {
+        "west": 60,
+        "south": -65,
+        "east": 180,
+        "north": 0
+      },
+      "package": {
+        "file_name": "oceania_lightpollution.mbtiles",
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/oceania_lightpollution.mbtiles",
+        "bytes": 21262336,
+        "sha256": "5e138181962318da654b9608983b8f71cdfc63e5a08fa8ca0452529b67358143"
+      },
+      "descriptor": {
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/oceania_dataset.json",
+        "bytes": 741,
+        "sha256": "38670f79af19d5862821ef5bfc9bb90c45bde031125a12cca56fc6d03eb3ca8d"
+      },
+      "format": {
+        "schema_version": 2,
+        "tile_storage": "numeric_only_v1",
+        "numeric_encoding": "log1p_ratio_u16_delta_shuffle_zlib_v2",
+        "palette": "sqm_palette_v1",
+        "reading_zoom": 8,
+        "display_min_zoom": 3,
+        "display_max_zoom": 8
+      },
+      "model_version": "experimental-linear-two-feature-v2",
+      "attribution_url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/ATTRIBUTION.md",
+      "source_license": "CC-BY-4.0",
+      "limitations": [
+        "Experimental western-US calibration applied globally; coverage is not independent validation of accuracy.",
+        "Annual 2025 model, not live sky conditions; no terrain shielding, spectrum or weather correction.",
+        "The complete 300 km source footprint is required; polar source limits remain unavailable.",
+        "Roads, labels and terrain are separate basemap downloads."
+      ]
+    },
+    {
+      "id": "south-pacific",
+      "name": "South Pacific",
+      "version": "world-2025-v2-compact-1",
+      "source_year": 2025,
+      "bounds": {
+        "west": -180,
+        "south": -65,
+        "east": -100,
+        "north": 0
+      },
+      "package": {
+        "file_name": "south_pacific_lightpollution.mbtiles",
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/south_pacific_lightpollution.mbtiles",
+        "bytes": 1769472,
+        "sha256": "3be051990f42bb2f584753f4970eef030fd23bde5c4b1c0efc76f12b4073e659"
+      },
+      "descriptor": {
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/south-pacific_dataset.json",
+        "bytes": 761,
+        "sha256": "c42c3e79f34a1cbf4c856f081e4178e50b50750838ad7e9b1def92908453f4da"
+      },
+      "format": {
+        "schema_version": 2,
+        "tile_storage": "numeric_only_v1",
+        "numeric_encoding": "log1p_ratio_u16_delta_shuffle_zlib_v2",
+        "palette": "sqm_palette_v1",
+        "reading_zoom": 8,
+        "display_min_zoom": 3,
+        "display_max_zoom": 8
+      },
+      "model_version": "experimental-linear-two-feature-v2",
+      "attribution_url": "https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/ATTRIBUTION.md",
+      "source_license": "CC-BY-4.0",
+      "limitations": [
+        "Experimental western-US calibration applied globally; coverage is not independent validation of accuracy.",
+        "Annual 2025 model, not live sky conditions; no terrain shielding, spectrum or weather correction.",
+        "The complete 300 km source footprint is required; polar source limits remain unavailable.",
+        "Roads, labels and terrain are separate basemap downloads."
+      ]
+    }
+  ]
+}
