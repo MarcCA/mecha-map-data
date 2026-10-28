@@ -35,7 +35,7 @@
     180,
     75
   ],
-  "all_regions_bytes": 489033728,
+  "all_regions_bytes": 457781248,
   "regions": [
     {
       "id": "north-america",
@@ -45,8 +45,8 @@
         "east": -30,
         "north": 75
       },
-      "bytes": 99401728,
-      "sha256": "bf1a00ad82cd6b02eab503f5c9929c9a95fd1549554ae0dc8fb59a8a16e30b75"
+      "bytes": 87056384,
+      "sha256": "38542f4e82a323a5d919bd813740ba88ed808aece966a08aff228d7337122851"
     },
     {
       "id": "south-america",
@@ -56,8 +56,8 @@
         "east": -30,
         "north": 15
       },
-      "bytes": 50520064,
-      "sha256": "a6e3eb41fcc25e0ee56a1cfcb18f6844a67fdbe6bf0ad506bf6407c4cabb3c5c"
+      "bytes": 48009216,
+      "sha256": "fba693b7021b6f82f489b6b90c4449360bf1b2954041b5deb7344d4a64ea7266"
     },
     {
       "id": "europe",
@@ -67,8 +67,8 @@
         "east": 60,
         "north": 75
       },
-      "bytes": 118185984,
-      "sha256": "7983189b1cebc18ebcae37e1f2fe10a2ab3dc9fb9c5541ab9cdabca9b18bc1da"
+      "bytes": 113872896,
+      "sha256": "e6bb3a5e0e64b639d5a52e93ad6a866355037b3ff9fcd9ba984114629f994daf"
     },
     {
       "id": "africa",
@@ -78,8 +78,8 @@
         "east": 60,
         "north": 30
       },
-      "bytes": 55455744,
-      "sha256": "02ec6d3ac077e80412f67215807143503580cd90c9fca91c0be77f971375b410"
+      "bytes": 52166656,
+      "sha256": "77641989392644db376f3191d915ad35da40b07ac3c05599982fe21d4b21bf96"
     },
     {
       "id": "asia",
@@ -89,8 +89,8 @@
         "east": 180,
         "north": 75
       },
-      "bytes": 142438400,
-      "sha256": "1a877f6dc70b7b8c16c85ab5911fb6819163a756b3d7789e6e943808711520c3"
+      "bytes": 134901760,
+      "sha256": "d2aec40342a2456c6949df82103621573ea7c35e365558a53019add213ecb3e6"
     },
     {
       "id": "oceania",
@@ -100,8 +100,8 @@
         "east": 180,
         "north": 0
       },
-      "bytes": 21262336,
-      "sha256": "5e138181962318da654b9608983b8f71cdfc63e5a08fa8ca0452529b67358143"
+      "bytes": 20103168,
+      "sha256": "43870b9d32c74c3afc77934ca0d2d3e40eb3f701bec5455652cb38398553c45d"
     },
     {
       "id": "south-pacific",
@@ -111,8 +111,8 @@
         "east": -100,
         "north": 0
       },
-      "bytes": 1769472,
-      "sha256": "3be051990f42bb2f584753f4970eef030fd23bde5c4b1c0efc76f12b4073e659"
+      "bytes": 1671168,
+      "sha256": "db2755267e46eb9453f7b21fd704deac5739166a5f9bbd81f58d9cb26dbbf4a2"
     }
   ]
 }

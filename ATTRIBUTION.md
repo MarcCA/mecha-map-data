@@ -26,3 +26,7 @@ and the source website's maps or imagery are not distributed here.
 This repository contains downloadable data and documentation, not the Mecha
 application source code. The upstream license and attribution remain applicable
 to the EOG source material; publishing these data does not license app code.
+
+## Global persistent-light filtering
+
+Globally, a source pixel remains lit only where both 2024 and 2025 masked annual radiance are positive. Retained pixels use their original 2025 radiance; no 2024 brightness values are substituted. Missing input coverage remains unavailable. Genuine lights appearing only in 2025 are excluded; artifacts present in both years or extra brightness over existing lights may remain.

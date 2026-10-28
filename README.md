@@ -7,15 +7,15 @@ This repository contains public data and documentation, not application source.
 
 The current app uses [catalog-world-v1.json](catalog-world-v1.json). Its seven
 regions cover the complete available atlas, including oceans and the date line.
-All regions together require 489,033,728 bytes (about 489.0 MB).
+All regions together require 457,781,248 bytes (about 457.8 MB).
 
-- [North America](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/north_america_lightpollution.mbtiles): 99.4 MB.
-- [South America](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/south_america_lightpollution.mbtiles): 50.5 MB.
-- [Europe](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/europe_lightpollution.mbtiles): 118.2 MB.
-- [Africa](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/africa_lightpollution.mbtiles): 55.5 MB.
-- [Asia](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/asia_lightpollution.mbtiles): 142.4 MB.
-- [Oceania](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/oceania_lightpollution.mbtiles): 21.3 MB.
-- [South Pacific](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-v2-compact-1/south_pacific_lightpollution.mbtiles): 1.8 MB.
+- [North America](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-persistent-2024-1/north_america_lightpollution.mbtiles): 87.1 MB.
+- [South America](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-persistent-2024-1/south_america_lightpollution.mbtiles): 48.0 MB.
+- [Europe](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-persistent-2024-1/europe_lightpollution.mbtiles): 113.9 MB.
+- [Africa](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-persistent-2024-1/africa_lightpollution.mbtiles): 52.2 MB.
+- [Asia](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-persistent-2024-1/asia_lightpollution.mbtiles): 134.9 MB.
+- [Oceania](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-persistent-2024-1/oceania_lightpollution.mbtiles): 20.1 MB.
+- [South Pacific](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-persistent-2024-1/south_pacific_lightpollution.mbtiles): 1.7 MB.
 
 The source covers approximately 65°S to 75°N. Requiring the full 300 km source
 footprint reduces valid coverage near those polar edges. The exact available
@@ -34,4 +34,10 @@ Roads, place labels and terrain use separate basemap downloads.
 [catalog.json](catalog.json) remains available for earlier app versions; it is
 deliberately not expanded because those versions read only one region.
 
-Release: [world-2025-v2-compact-1](https://github.com/MarcCA/mecha-map-data/releases/tag/world-2025-v2-compact-1).
+Release: [world-2025-persistent-2024-1](https://github.com/MarcCA/mecha-map-data/releases/tag/world-2025-persistent-2024-1).
+
+## Source corrections
+
+Globally, a source pixel remains lit only where both 2024 and 2025 masked annual radiance are positive. Retained pixels use their original 2025 radiance; no 2024 brightness values are substituted. Missing input coverage remains unavailable. Genuine lights appearing only in 2025 are excluded; artifacts present in both years or extra brightness over existing lights may remain.
+
+[Global map preview](https://github.com/MarcCA/mecha-map-data/releases/download/world-2025-persistent-2024-1/world-2025-persistent-app-colors.jpg)

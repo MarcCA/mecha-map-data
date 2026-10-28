@@ -1,0 +1,38 @@
+{
+  "operation": "2025-radiance-masked-by-2024-presence",
+  "primary_year": 2025,
+  "reference_year": 2024,
+  "brightness_year": 2025,
+  "presence_years": [
+    2024,
+    2025
+  ],
+  "scope": "global",
+  "light_presence_threshold": 0,
+  "spatial_tolerance_pixels": 0,
+  "rule": "Retain original 2025 radiance where both valid years have positive radiance; remove 2025-only positive radiance. No 2024 brightness is substituted.",
+  "unknown_coverage": "NoData if either input is invalid; never treated as darkness.",
+  "statistics": {
+    "pixels": 2903160001,
+    "valid_both_years": 2903160001,
+    "lit_2025_pixels": 81649027,
+    "confirmed_lit_pixels": 71683932,
+    "removed_2025_only_pixels": 9965095,
+    "lit_2024_only_pixels": 6861052,
+    "unknown_primary_pixels": 0,
+    "unknown_reference_pixels": 0,
+    "original_positive_radiance_sum": 318275426.1496302,
+    "retained_positive_radiance_sum": 309667403.8756597
+  },
+  "verification": {
+    "pixels_checked": 2903160001,
+    "mismatches": 0,
+    "retained_2025_brightness_exact": true
+  },
+  "limitations": [
+    "New lights appearing only in 2025 are intentionally excluded.",
+    "Artifacts present in both years or extra radiance over a persistent source may remain."
+  ],
+  "manifest_sha256": "7f5407853af63d1400940574427e3989afdef976aa8f3f251dd2257e8d72cfab",
+  "corrected_source_sha256": "9e46acc5e94a7290b9170c4b9d7cb3781a5b2be8886ca56515108667bd036699"
+}
