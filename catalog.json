@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "updated_at_utc": "2026-10-28T02:53:52.812558+00:00",
+  "regions": [
+    {
+      "id": "north-america",
+      "name": "North America",
+      "version": "north-america-2025-v2-compact-1",
+      "source_year": 2025,
+      "bounds": {
+        "west": -170.0,
+        "south": 15.0,
+        "east": -50.0,
+        "north": 75.0
+      },
+      "package": {
+        "file_name": "north_america_lightpollution.mbtiles",
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/north-america-2025-v2-compact-1/north_america_lightpollution.mbtiles",
+        "bytes": 88100864,
+        "sha256": "81606ef9ea356ea6223a64375984cff57633ab55f5f06fdc5b99617d267a98d2"
+      },
+      "descriptor": {
+        "url": "https://github.com/MarcCA/mecha-map-data/releases/download/north-america-2025-v2-compact-1/lightpollution_dataset.json",
+        "bytes": 634,
+        "sha256": "0858cb2658938da2d163daa73183a8364bb395b9756dc6e149ee6946909ebf84"
+      },
+      "format": {
+        "schema_version": 2,
+        "tile_storage": "numeric_only_v1",
+        "numeric_encoding": "log1p_ratio_u16_delta_shuffle_zlib_v2",
+        "palette": "sqm_palette_v1",
+        "reading_zoom": 8,
+        "display_min_zoom": 3,
+        "display_max_zoom": 8
+      },
+      "model_version": "experimental-linear-two-feature-v2",
+      "attribution_url": "https://github.com/MarcCA/mecha-map-data/releases/download/north-america-2025-v2-compact-1/ATTRIBUTION.md",
+      "source_license": "CC-BY-4.0",
+      "limitations": [
+        "Experimental model calibrated against western-US website-model references; not an independently validated continental survey.",
+        "Annual 2025 model, not current weather, Moon conditions or a live measurement.",
+        "No terrain shielding, spectral corrections or weather corrections.",
+        "Nominal bounds include unavailable areas near source edges; missing coverage must remain unavailable.",
+        "Roads, labels and terrain are separate basemap data and are not included."
+      ]
+    }
+  ]
+}
